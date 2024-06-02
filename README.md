@@ -1,4 +1,4 @@
-# Este README es una presentación sensilla.
+# Este README es una presentación.
 ## Nombre: Alexandro Surraco
 ## Cursando: Devops
 ### Seguire ampliando
