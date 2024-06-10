@@ -1,0 +1,27 @@
+2024-06-10T02:09:04.649441+00:00 it-estudia user_admin: Grupo 'Desarrollo' creado.
+2024-06-10T02:09:04.680737+00:00 it-estudia user_admin: Grupo 'Operaciones' creado.
+2024-06-10T02:09:04.710802+00:00 it-estudia user_admin: Grupo 'Ingenieria' creado.
+2024-06-10T02:09:04.777305+00:00 it-estudia user_admin: Usuario 'Usuario1' creado y añadido al grupo 'Desarrollo'.
+2024-06-10T02:09:04.812416+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario1'.
+2024-06-10T02:09:04.822553+00:00 it-estudia user_admin: Directorio home '/home/Usuario1' creado.
+2024-06-10T02:09:04.841511+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario1'.
+2024-06-10T02:09:04.911127+00:00 it-estudia user_admin: Usuario 'Usuario2' creado y añadido al grupo 'Desarrollo'.
+2024-06-10T02:09:04.946131+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario2'.
+2024-06-10T02:09:04.956334+00:00 it-estudia user_admin: Directorio home '/home/Usuario2' creado.
+2024-06-10T02:09:04.973898+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario2'.
+2024-06-10T02:09:05.039238+00:00 it-estudia user_admin: Usuario 'Usuario3' creado y añadido al grupo 'Operaciones'.
+2024-06-10T02:09:05.074782+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario3'.
+2024-06-10T02:09:05.084967+00:00 it-estudia user_admin: Directorio home '/home/Usuario3' creado.
+2024-06-10T02:09:05.103172+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario3'.
+2024-06-10T02:09:05.168955+00:00 it-estudia user_admin: Usuario 'Usuario4' creado y añadido al grupo 'Operaciones'.
+2024-06-10T02:09:05.203930+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario4'.
+2024-06-10T02:09:05.213799+00:00 it-estudia user_admin: Directorio home '/home/Usuario4' creado.
+2024-06-10T02:09:05.230871+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario4'.
+2024-06-10T02:09:05.296396+00:00 it-estudia user_admin: Usuario 'Usuario5' creado y añadido al grupo 'Ingenieria'.
+2024-06-10T02:09:05.332097+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario5'.
+2024-06-10T02:09:05.342198+00:00 it-estudia user_admin: Directorio home '/home/Usuario5' creado.
+2024-06-10T02:09:05.360021+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario5'.
+2024-06-10T02:09:05.429149+00:00 it-estudia user_admin: Usuario 'Usuario6' creado y añadido al grupo 'Ingenieria'.
+2024-06-10T02:09:05.463817+00:00 it-estudia user_admin: Contraseña establecida para el usuario 'Usuario6'.
+2024-06-10T02:09:05.474178+00:00 it-estudia user_admin: Directorio home '/home/Usuario6' creado.
+2024-06-10T02:09:05.491866+00:00 it-estudia user_admin: Permisos establecidos para el directorio '/home/Usuario6'.
