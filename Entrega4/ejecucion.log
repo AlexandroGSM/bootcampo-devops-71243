@@ -1,0 +1,15 @@
+
+2024-06-22T17:31:41.935827+00:00 it-estudia asurraco: Ejecución del script principal iniciada.
+2024-06-22T17:31:41.938162+00:00 it-estudia asurraco: Ejecución de la función para detectar distribución
+2024-06-22T17:31:41.941108+00:00 it-estudia asurraco: Distribución de Linux detectada: Ubuntu 24.04 LTS
+2024-06-22T17:31:41.942790+00:00 it-estudia asurraco: Ejecución de la función para detectar gestor de paquetes
+2024-06-22T17:31:41.944582+00:00 it-estudia asurraco: Gestor de paquetes detectado: APT
+2024-06-22T17:31:41.946368+00:00 it-estudia asurraco: Ejecución de la función para actualizar gestor de paquetes
+2024-06-22T17:33:46.347585+00:00 it-estudia asurraco: Actualización del sistema completada usando APT.
+2024-06-22T17:33:46.349755+00:00 it-estudia asurraco: Ejecución de la función para instalar Tomcat
+2024-06-22T17:33:58.907077+00:00 it-estudia asurraco: Apache Tomcat instalado usando APT.
+2024-06-22T17:33:58.909736+00:00 it-estudia asurraco: Ejecución de la función para verificar y crear el directorio raíz de Tomcat 10
+2024-06-22T17:33:58.911747+00:00 it-estudia asurraco: El directorio raíz de Tomcat ya existe en: /usr/share/tomcat10-root/default_root.
+2024-06-22T17:33:58.913771+00:00 it-estudia asurraco: Ejecución de la función para copiar archivo index.html
+2024-06-22T17:33:58.928724+00:00 it-estudia asurraco: Archivo index.html copiado al directorio raíz del servidor web.
+2024-06-22T17:33:58.930886+00:00 it-estudia asurraco: Ejecución del script principal completada.
