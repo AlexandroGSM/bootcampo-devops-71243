@@ -77,10 +77,13 @@ log_message "Ejecución de la función para copiar archivo index.html"
 copy_index_html
 
 log_message "Ejecución del script principal completada."
-funciones.sh
+
+```
+
+### `funciones.sh`
 Este script contiene varias funciones reutilizables:
 
-
+```bash
 #!/bin/bash
 
 # Función de logging
@@ -197,6 +200,8 @@ copy_index_html() {
     echo "Archivo index.html copiado al directorio raíz del servidor web."
     log_message "Archivo index.html copiado al directorio raíz del servidor web."
 }
+```
+
 Contribuciones
 Para contribuir a este proyecto, por favor sigue estos pasos:
 
