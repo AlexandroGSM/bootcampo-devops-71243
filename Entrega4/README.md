@@ -18,8 +18,8 @@ Este proyecto contiene scripts para instalar Apache Tomcat 10 en un sistema Linu
 1. **Clona el repositorio**:
 
     ```bash
-    git clone https://github.com/tuusuario/tu-repositorio.git
-    cd tu-repositorio
+    git clone https://github.com/AlexandroGSM/bootcampo-devops-71243.git
+    cd bootcampo-devops-71243
     ```
 
 2. **Concede permisos de ejecución a los scripts**:
