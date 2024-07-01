@@ -100,9 +100,9 @@ check_and_create_tomcat_root() {
     else
         echo "El directorio raíz de Tomcat no existe. Creando el directorio en: $tomcat_root_dir"
         log_message "El directorio raíz de Tomcat no existe. Creando el directorio en: $tomcat_root_dir."
-       
+
         sudo mkdir -p "$tomcat_root_dir"
-       
+
         echo "Directorio creado exitosamente."
         log_message "Directorio creado exitosamente."
     fi
