@@ -1,0 +1,50 @@
+Started by GitHub push by AlexandroGSM
+Obtained Jenkinsfile from git https://github.com/AlexandroGSM/bootcamp-Jenkins
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Slave-Jenkins in /home/jenkins/workspace/index
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/index/.git # timeout=10
+ > git config remote.origin.url https://github.com/AlexandroGSM/bootcamp-Jenkins # timeout=10
+Fetching upstream changes from https://github.com/AlexandroGSM/bootcamp-Jenkins
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/AlexandroGSM/bootcamp-Jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3ec316b17db94bf3170a6c9360c3a8904b931304 (refs/remotes/origin/master)
+Commit message: "22:33"
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3ec316b17db94bf3170a6c9360c3a8904b931304 # timeout=10
+ > git rev-list --no-walk c1ba84c0b004f6fec4c3549cef6d01d9f65914e2 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Check Apache)
+[Pipeline] sh
++ systemctl is-active apache2
+active
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Deploy to Apache)
+[Pipeline] sh
++ echo <h1>Hello from Jenkins Pipeline</h1>
++ sudo tee /var/www/html/index.html
+<h1>Hello from Jenkins Pipeline</h1>
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
