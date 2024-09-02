@@ -60,11 +60,5 @@ Problema de Permisos: Resuelto ajustando los permisos en /var/www/html y configu
 Java no encontrado en VM2: Solucionado instalando Java y configurando JAVA_HOME.
 Problemas de Conexión SSH: Resueltos verificando y ajustando la configuración de SSH en ambas VMs.
 
-Mejoras Futuras
-
-Implementar pruebas automatizadas antes del despliegue.
-Configurar notificaciones de éxito/fallo del pipeline.
-Implementar un proceso de rollback en caso de fallos en el despliegue.
-
 Contribuciones
 Las contribuciones a este proyecto son bienvenidas. Por favor, abre un issue o un pull request para sugerir cambios o mejoras.
