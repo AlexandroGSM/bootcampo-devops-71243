@@ -1,22 +1,5 @@
 Automatización de Despliegue con Ansible y Jenkins
-Índice
-Introducción
-Requisitos Previos
-Configuración de los Servidores
-3.1 Instalación de herramientas necesarias
-3.2 Generación de claves SSH necesarias
-Configuración de Ansible
-4.1 Inventario
-4.2 ansible.cfg
-4.3 Playbook
-Instalación y Configuración de Ngrok
-Configuración de Jenkins
-6.1 Instalación y Configuración Inicial
-6.2 Credenciales
-6.3 Pipeline
-Configuración de Git
-Pruebas y Ejecución
-Cómo Funciona
+
 1. Introducción
 Este proyecto implementa un pipeline CI/CD utilizando Ansible y Jenkins para automatizar la configuración y despliegue de aplicaciones web en servidores con Nginx y Tomcat.
 
